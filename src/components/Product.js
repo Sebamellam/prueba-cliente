@@ -82,7 +82,7 @@ const addCheckout = (id) => {
   return (
     <div className="bg-white">
 
-      {guitar.length === 0 ?
+      {product.length === 0 ?
         null :
         (
           <>
@@ -124,7 +124,7 @@ const addCheckout = (id) => {
                   <h2 className="text-3xl font-extrabold text-gray-400">Características</h2>
 
                   <p className="text-base text-gray-900 mt-6">
-                    <b>Precio</b>: ${precio} USD
+                    <b>Precio</b>: ${precio} CLP
                   </p>
 
                   <p className="text-base text-gray-900 mb-6">
@@ -150,30 +150,6 @@ const addCheckout = (id) => {
 
                     <div className="space-y-6">
                       <p className="text-base text-gray-900">{ descripcion } </p>
-                    </div>
-                  </div>
-
-                  <div className="mt-10">
-                    <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
-
-                    <div className="mt-4">
-                      <ul role="list" className="pl-4 list-disc text-sm space-y-2">
-                        <li className="text-gray-400"><span className="text-gray-600">Feature I</span></li>
-
-                        <li className="text-gray-400"><span className="text-gray-600">Feature II</span></li>
-
-                        <li className="text-gray-400"><span className="text-gray-600">Feature III</span></li>
-
-                        <li className="text-gray-400"><span className="text-gray-600">Feature IV</span></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="mt-10">
-                    <h2 className="text-sm font-medium text-gray-900">Details</h2>
-
-                    <div className="mt-4 space-y-6">
-                      <p className="text-sm text-gray-600">In a consectetur urna. Donec et ipsum turpis. Morbi in lectus vel turpis faucibus feugiat vel ac urna. Suspendisse imperdiet congue dolor, non mattis est porttitor in. Etiam commodo quam vitae congue eleifend. In a felis id velit imperdiet varius a at turpis. Nullam porta, ligula quis aliquet iaculis, lectus magna faucibus odio, eget venenatis risus lectus vitae sem.</p>
                     </div>
                   </div>
                 </div>
